@@ -1,26 +1,32 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="background">
+    <div class="image">
+      <img src="@/assets/技术大陆.png" style="margin-left: 100px;">
+      <img src="@/assets/淘金大陆.png" style="margin-left: 400px;">
+      <img src="@/assets/风险大陆.png" style="margin-left: 400px;">
+    </div>
+    <div class="menu">
+      <p class="menu_space" style="margin-left: 100px;">社区首页</p>
+      <p class="menu_space">技术大陆</p>
+      <p class="menu_space">淘金大陆</p>
+      <p class="menu_space">风险大陆</p>
+      <p class="menu_space">登录注册</p>
+    </div>
+    <div>
+      <BannerComponent />
+    </div>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import BannerComponent from '@/components/Banner.vue';
 export default {
-  name: 'App',
+  name: 'backgroundComponent',
   components: {
-    HelloWorld
+    BannerComponent
   }
 }
 </script>
-
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+@import '@/assets/Home.css';
 </style>

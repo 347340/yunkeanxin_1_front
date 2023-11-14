@@ -1,0 +1,60 @@
+#background {
+  width: 1820px;
+  height: 100%;
+}
+
+.image {
+  background: white;
+  margin-top: -40px;
+}
+
+.menu {
+  display: flex;
+  background: #333333;
+  width: 1820px;
+  height: 80%;
+}
+
+.menu_space {
+  margin-left: 50px;
+  color: #7d7d7d;
+}
+
+.banner {
+  position: relative;
+  margin-bottom: 0.7rem;
+}
+
+.banner .current,
+.banner .page ul li {
+  color: #ff6700;
+}
+
+.banner .page {
+  background: rgba(0, 0, 0, .5);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 1430px;
+}
+
+.banner .page ul {
+  float: right;
+}
+
+.banner .page ul li {
+  list-style: none;
+  float: left;
+  width: 30px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  color: rgba(255, 255, 255, .8);
+  font-size: 14px;
+}
+
+.banner img {
+  width: 1430px;
+  max-height: 530px;
+}
