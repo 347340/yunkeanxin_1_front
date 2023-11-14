@@ -1,5 +1,5 @@
 <template>
-  <div id="background">
+  <div id="home">
     <div class="image">
       <img src="@/assets/技术大陆.png" style="margin-left: 100px;">
       <img src="@/assets/淘金大陆.png" style="margin-left: 400px;">
@@ -23,7 +23,7 @@
 <script>
 import BannerComponent from '@/components/Banner.vue';
 export default {
-  name: 'backgroundComponent',
+  name: 'HomeComponent',
   components: {
     BannerComponent
   }

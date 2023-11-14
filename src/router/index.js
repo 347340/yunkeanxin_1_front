@@ -1,12 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import ZhuiFeng from '@/components/ZhuiFeng.vue';
-import Home from '@/components/Home.vue';
+import HomeComponent from '@/components/Home.vue';
 
 const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: HomeComponent
   },
   {
     path: '/zhuiFeng',
